@@ -1,6 +1,14 @@
-# UniversalApplication
+# Universal Application
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
+
+## Add Modules
+
+```bash
+npm install express body-parser cookie-parser --save-dev
+npm install @types/express @types/body-parser @types/cookie-parser --save-dev
+npm install angular2-express-engine angular2-platform-node angular2-universal angular2-universal-polyfills --save-dev
+```
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
